@@ -1,0 +1,125 @@
+/* PORTFOLIO SECTION */
+
+.our-portfolio-list {
+  list-style-type: none;
+  background-color: #ffffff;
+}
+
+.our-portfolio-background {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.our-portfolio-heading {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+}
+
+.portfolio-card {
+  background-color: #ffffff;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-photo-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 40px 32px;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-photo-wrapper:hover .overlay,
+.portfolio-photo-wrapper:focus .overlay {
+  transform: translateY(0%);
+}
+
+.our-portfolio-card-text {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.our-portfolio-projects {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.portfolio-type {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.our-portfolio-container {
+  width: 320px;
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+  .portfolio-container {
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .portfolio-card {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .our-portfolio-container {
+    width: 768px;
+  }
+}
+/* /TABLET */
+
+/* DESCTOP */
+@media screen and (min-width: 1158px) {
+  .our-portfolio-background {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .portfolio-container {
+    flex-wrap: wrap;
+    row-gap: 48px;
+  }
+
+  .portfolio-card {
+    width: calc((100% - 48px) / 3);
+  }
+
+  .portfolio-card:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
+}
+/* /DESCTOP */
