@@ -99,10 +99,6 @@
   background-color: #404bbf;
 }
 
-.our-team-container {
-  width: 320px;
-}
-
 /* TABLET */
 @media screen and (min-width: 768px) {
   .our-team-background {
@@ -123,14 +119,10 @@
     width: calc((100% - 24px) / 2);
     border-radius: 0px 0px 4px 4px;
   }
-
-  .our-team-container {
-    width: 768px;
-  }
 }
 /* /TABLET */
 
-/* DESCTOP */
+/* DESKTOP */
 @media screen and (min-width: 1158px) {
   .our-team-background {
     background-color: #f4f4fd;
@@ -151,4 +143,4 @@
     background-color: #404bbf;
   }
 }
-/* /DESCTOP */
+/* /DESKTOP */

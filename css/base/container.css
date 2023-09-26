@@ -1,31 +1,26 @@
-.page-header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 16px;
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 @media screen and (min-width: 320px) {
-  .page-header-container {
+  .container {
     width: 320px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .page-header-container {
+  .container {
     width: 768px;
   }
 }
 
 @media screen and (min-width: 1158px) {
-  .page-header-container {
+  .container {
     width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
-}
-.container {
-  width: 1158px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0 15px;
 }

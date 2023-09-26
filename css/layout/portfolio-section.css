@@ -79,10 +79,6 @@
   letter-spacing: 0.32px;
 }
 
-.our-portfolio-container {
-  width: 320px;
-}
-
 /* TABLET */
 @media screen and (min-width: 768px) {
   .portfolio-container {
@@ -94,14 +90,10 @@
   .portfolio-card {
     width: calc((100% - 24px) / 2);
   }
-
-  .our-portfolio-container {
-    width: 768px;
-  }
 }
 /* /TABLET */
 
-/* DESCTOP */
+/* DESKTOP */
 @media screen and (min-width: 1158px) {
   .our-portfolio-background {
     padding-top: 120px;
@@ -122,4 +114,4 @@
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
 }
-/* /DESCTOP */
+/* /DESKTOP */

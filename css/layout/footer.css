@@ -9,7 +9,6 @@
   flex-direction: column;
   flex-wrap: wrap;
   row-gap: 72px;
-  width: 320px;
 }
 
 .logotype-footer {
@@ -72,6 +71,13 @@
 .social-list-link-footer:hover,
 .social-list-link-footer:focus {
   background-color: #31d0aa;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-form-container {
@@ -147,7 +153,6 @@
     column-gap: 24px;
     text-align: left;
     justify-content: center;
-    width: 584px;
   }
 
   .footer-logo-wrapper {
@@ -157,6 +162,12 @@
   .footer-logo {
     display: flex;
     justify-content: start;
+  }
+
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .footer-form-container {
@@ -189,7 +200,6 @@
     flex-wrap: nowrap;
     align-items: baseline;
     column-gap: 0px;
-    width: 1158px;
   }
 
   .footer-form-container {
