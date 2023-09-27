@@ -73,7 +73,6 @@
 @media screen and (min-width: 768px) {
   .hero-section {
     padding: 112px 0;
-    width: 768px;
   }
 
   .hero-bg-img {
@@ -117,7 +116,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../../images/hero/bg-desktop.jpg);
+      url(../../images/hero/bg.jpg);
   }
 
   .first-section-heading {
@@ -137,7 +136,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url("../../images/hero/bg-desktop@2x.jpg");
+        url("../../images/hero/bg@2x.jpg");
     }
   }
 }
