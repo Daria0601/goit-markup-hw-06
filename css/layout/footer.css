@@ -152,7 +152,7 @@
     flex-wrap: wrap;
     column-gap: 24px;
     text-align: left;
-    justify-content: center;
+    width: 584px;
   }
 
   .footer-logo-wrapper {
